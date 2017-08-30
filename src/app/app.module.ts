@@ -2,10 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { BlueColorDirective } from './blue-color.directive';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BlueColorDirective
+    
   ],
   imports: [
     BrowserModule
